@@ -1,7 +1,9 @@
 {
+  "$schema": "http://json.schemastore.org/cosmos-config",
   "rootDir": "../",
   "staticPath": "./public",
   "webpack": {
     "overridePath": "./cosmos/webpack.override.js"
-  }
+  },
+  "globalImports": ["./styles/global.css"]
 }

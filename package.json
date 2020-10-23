@@ -22,6 +22,9 @@
     "@babel/plugin-transform-react-jsx": "^7.12.1",
     "babel-loader": "^8.1.0",
     "html-webpack-plugin": "^4.5.0",
-    "react-cosmos": "^5.5.0"
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "react-cosmos": "^5.5.0",
+    "tailwindcss": "^1.9.5"
   }
 }
