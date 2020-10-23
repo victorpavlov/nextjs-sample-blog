@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "cosmos": "cosmos --config cosmos/cosmos.config.json",
+    "cosmos:export": "cosmos-export --config cosmos/cosmos.config.json"
   },
   "dependencies": {
     "date-fns": "^2.16.1",
@@ -15,5 +17,11 @@
     "react-dom": "16.13.1",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "react-cosmos": "^5.5.0"
   }
 }

@@ -1,0 +1,8 @@
+// Babel ettings should be exposed
+// for propper Cosmos https://github.com/react-cosmos/react-cosmos/ work.
+// Currently this file just contains default Next.js preset.
+// If you want change config, please respect this doc:
+// https://nextjs.org/docs/advanced-features/customizing-babel-config
+{
+  "presets": ["next/babel"]
+}
