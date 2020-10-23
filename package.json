@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "cosmos": "cosmos",
-    "cosmos:export": "cosmos-export"
+    "cosmos": "cosmos --config cosmos/cosmos.config.json",
+    "cosmos:export": "cosmos-export --config cosmos/cosmos.config.json"
   },
   "dependencies": {
     "date-fns": "^2.16.1",
